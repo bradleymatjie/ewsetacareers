@@ -1,0 +1,109 @@
+header {
+  width: 100%;
+}
+header .logo {
+  width: 25%;
+  background-color: whitesmoke;
+}
+
+.hero h5 {
+  color: whitesmoke;
+}
+
+.btn-read-more {
+  background-color: orange;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 1px 1px 5px 1px black;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  transition: 2s all;
+}
+
+.btn-read-more:hover {
+  background-color: #f0f0f3;
+  box-shadow: inset -10px -10px 10px #fff 70%, inset 10px 10px 10px #aeaec0 20%;
+}
+
+.btn-apply-now {
+  background-color: orange;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px 35px;
+  font-size: 14px;
+}
+
+.careersimage {
+  width: 50%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.why-we-built-image {
+  width: 50%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* career finder section */
+.career-finder {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #333, #76ccb1);
+}
+
+.cf-text-container {
+  width: 30%;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cards-container {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.testImg {
+  width: 50%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* browse careers section */
+
+.browsecareers {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1533323919903-fd18bacc10b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9nZ3klMjBtb3VudGFpbnxlbnwwfHwwfHw%3D&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.browsecareersTexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.browsecareersTexts button {
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  background-color: transparent;
+  box-shadow: 1px 1px 5px #252525;
+  color: white;
+
+}
